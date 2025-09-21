@@ -1,0 +1,142 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* navbar */
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    max-width: 1240px;
+    margin: 0 auto
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px
+}
+
+.brand-name {
+    color: #503217;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+#page {
+    color: #503217;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding-right: -10px;
+    background-repeat: no-repeat;
+    background-position: left 3px center;
+    background-size: 10px;
+    border-radius: 4px;
+}
+
+
+
+
+/* list container */
+.list-container {
+    color: #503217;
+    list-style: none;
+    display: flex;
+    gap: 17px;
+    font-size: 18px;
+}
+
+.shoping-logo {
+    display: flex;
+    gap: 20px
+}
+
+/* banner section */
+.banner {
+    padding:50px 50px
+}
+
+
+.banner-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-image: url("../images/banner_image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top;
+    padding: 70px 0px;
+
+
+
+
+}
+
+/* banner image */
+.banner-img {
+
+    width: 400px;
+    height: 400px;
+}
+
+.banner-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px
+}
+
+.banner-title {
+    color: #503217;
+    font-size: 60px;
+    font-weight: 600;
+
+}
+
+.banner-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 8px;
+    background-color: #503217;
+    border-radius: 8px;
+    font-size: 15px;
+    color: white;
+}
+/* main section */
+.container{
+    display: flex;
+    margin-top:40px
+}
+.shop-categroy-section{
+    margin:70px 0;
+}
+.shop-container{
+    max-width:1240px;
+    margin:0 auto;
+}
+/* shop category */
+.category{
+    border:2px solid #8F7D6A1A;
+    padding:25px 38px;
+    border-radius:8px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.shop-categroy{
+    width:90px;
+    height:90px;
+    border:2px dotted #503217;
+    border-radius:100%;
+    margin-bottom:10px; 
+    padding:5px
+}
